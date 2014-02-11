@@ -6,7 +6,7 @@
 
 class postgresapp {
   package { 'Postgresapp':
-    source   => 'http://postgres-app.s3.amazonaws.com/PostgresApp-9-2-2-0.zip',
+    source   => 'http://postgresapp.com/download',
     provider => 'compressed_app',
   }
 }
